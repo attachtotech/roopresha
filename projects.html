@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | RUPRESHA Luxury Architecture & Interior Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+</head>
+<body class="projects-page">
+    <!-- Door Opening Animation (Hidden for non-home pages) -->
+    <div class="door-container" style="display: none;"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">RUPRESHA</a>
+            <button class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="philosophy.html" class="nav-link">Philosophy</a></li>
+                <li class="nav-item"><a href="projects.html" class="nav-link active">Projects</a></li>
+                <li class="nav-item"><a href="experience.html" class="nav-link">Experience</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="hero" style="height: 80vh;">
+        <div class="arch-grid"></div>
+        <div class="container">
+            <div class="hero-content" style="text-align: left; align-items: flex-start;">
+                <span class="small-text animate-on-scroll" style="color: var(--color-brass);">Portfolio</span>
+                <h1 class="animate-on-scroll">Selected<br>Projects</h1>
+                <p class="large-text animate-on-scroll" data-delay="0.2" style="max-width: 600px; margin-top: 2rem;">A curated selection of residential and commercial projects that exemplify our design philosophy and approach to creating timeless spaces.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Projects Filter -->
+    <section class="section section-sm">
+        <div class="container">
+            <div class="projects-filter animate-on-scroll">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="residential">Residential</button>
+                <button class="filter-btn" data-filter="commercial">Commercial</button>
+                <button class="filter-btn" data-filter="hospitality">Hospitality</button>
+                <button class="filter-btn" data-filter="cultural">Cultural</button>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Projects Grid -->
+    <section class="section" style="padding-top: 0;">
+        <div class="container">
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card animate-on-scroll" data-project="1" data-category="residential" data-delay="0.1">
+                    <div class="project-image">
+                        <div style="width: 100%; height: 100%; background: linear-gradient(45deg, #8a8a8a, #b0b0b0);"></div>
+                    </div>
+                    <div class="project-overlay">
+                        <span class="project-category">Residential</span>
+                        <h3>Villa Serenity</h3>
+                        <p>A hillside retreat embracing panoramic views</p>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card animate-on-scroll" data-project="2" data-category="residential" data-delay="0.2">
+                    <div class="project-image">
+                        <div style="width: 100%; height: 100%; background: linear-gradient(45deg, #7d6e63, #a99e8d);"></div>
+                    </div>
+                    <div class="project-overlay">
+                        <span class="project-category">Residential</span>
+                        <h3>Urban Loft Residence</h3>
+                        <p>Industrial elegance in a converted warehouse</p>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="project-card animate-on-scroll" data-project="3" data-category="hospitality" data-delay="0.3">
+                    <div class="project-image">
+                        <div style="width: 100%; height: 100%; background: linear-gradient(45deg, #4a6b7c, #7d9aa6);"></div>
+                    </div>
+                    <div class="project-overlay">
+                        <span class="project-category">Hospitality</span>
+                        <h3>Coral Boutique Hotel</h3>
+                        <p>Coastal luxury with sustainable principles</p>
+                    </div>
+                </div>
+                
+                <!-- Project 4 -->
+                <div class="project-card animate-on-scroll" data-project="4" data-category="commercial" data-delay="0.4">
+                    <div class="project-image">
+                        <div style="width: 100%; height: 100%; background: linear-gradient(45deg, #5c6b7d, #8a9bae);"></div>
+                    </div>
+                    <div class="project-overlay">
+                        <span class="project-category">Commercial</span>
+                        <h3>Corporate Headquarters</h3>
+                        <p>Minimalist workspace promoting collaboration</p>
+                    </div>
+                </div>
+                
+                <!-- Project 5 -->
+                <div class="project-card animate-on-scroll" data-project="5" data-category="residential" data-delay="0.5">
+                    <div class="project-image">
+                        <div style="width: 100%; height: 100%; background: linear-gradient(45deg, #8a7a6a, #b0a08e);"></div>
+                    </div>
+                    <div class="project-overlay">
+                        <span class="project-category">Residential</span>
+                        <h3>Courtyard House</h3>
+                        <p>Traditional Indian elements in contemporary form</p>
+                    </div>
+                </div>
+                
+                <!-- Project 6 -->
+                <div class="project-card animate-on-scroll" data-project="6" data-category="cultural" data-delay="0.6">
+                    <div class="project-image">
+                        <div style="width: 100%; height: 100%; background: linear-gradient(45deg, #6a7b6e, #8a9b8e);"></div>
+                    </div>
+                    <div class="project-overlay">
+                        <span class="project-category">Cultural</span>
+                        <h3>Art Gallery Extension</h3>
+                        <p>Light-filled spaces for contemporary art</p>
+                    </div>
+                </div>
+                
+                <!-- Project 7 -->
+                <div class="project-card animate-on-scroll" data-project="7" data-category="residential" data-delay="0.7">
+                    <div class="project-image">
+                        <div style="width: 100%; height: 100%; background: linear-gradient(45deg, #9c8a7a, #c4b2a2);"></div>
+                    </div>
+                    <div class="project-overlay">
+                        <span class="project-category">Residential</span>
+                        <h3>Weekend Farmhouse</h3>
+                        <p>Rural retreat with modern vernacular architecture</p>
+                    </div>
+                </div>
+                
+                <!-- Project 8 -->
+                <div class="project-card animate-on-scroll" data-project="8" data-category="commercial" data-delay="0.8">
+                    <div class="project-image">
+                        <div style="width: 100%; height: 100%; background: linear-gradient(45deg, #7a8a7a, #a2b2a2);"></div>
+                    </div>
+                    <div class="project-overlay">
+                        <span class="project-category">Commercial</span>
+                        <h3>Retail Flagship Store</h3>
+                        <p>Sculptural interior for luxury fashion brand</p>
+                    </div>
+                </div>
+                
+                <!-- Project 9 -->
+                <div class="project-card animate-on-scroll" data-project="9" data-category="hospitality" data-delay="0.9">
+                    <div class="project-image">
+                        <div style="width: 100%; height: 100%; background: linear-gradient(45deg, #a15843, #c17a65);"></div>
+                    </div>
+                    <div class="project-overlay">
+                        <span class="project-category">Hospitality</span>
+                        <h3>Restaurant Renovation</h3>
+                        <p>Historic building transformed for fine dining</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Project Modal -->
+    <div class="project-modal">
+        <div class="modal-content">
+            <!-- Dynamic content loaded via JavaScript -->
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <a href="index.html" class="footer-logo">RUPRESHA</a>
+                <ul class="footer-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="philosophy.html">Philosophy</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">© 2024 RUPRESHA Architecture & Interior Design. All rights reserved.</p>
+                <ul class="social-links">
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Pinterest</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/main.js"></script>
+    <script>
+        // Project filtering functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const projectCards = document.querySelectorAll('.project-card');
+            
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // Update active button
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    const filterValue = this.getAttribute('data-filter');
+                    
+                    // Filter projects
+                    projectCards.forEach(card => {
+                        if (filterValue === 'all' || card.getAttribute('data-category') === filterValue) {
+                            card.style.display = 'block';
+                            setTimeout(() => {
+                                card.style.opacity = '1';
+                                card.style.transform = 'translateY(0)';
+                            }, 10);
+                        } else {
+                            card.style.opacity = '0';
+                            card.style.transform = 'translateY(20px)';
+                            setTimeout(() => {
+                                card.style.display = 'none';
+                            }, 300);
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
